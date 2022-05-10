@@ -1,0 +1,81 @@
+@use '../../base';
+
+.item-detail-container {
+  background-color: base.$color-white;
+  display: flex;
+  flex-direction: column;
+  width: 1030px;
+}
+
+.item-detail-main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item-detail-image {
+  width: 650px;
+  padding: base.$space-m-30;
+}
+
+.item-detail-buy-section {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  padding: base.$space-l-40;
+}
+
+.item-detail-new {
+  font-family: base.$base-text;
+  font-size: base.$size-nano;
+  margin: base.$space-nano-5 base.$space-zero;
+}
+
+.item-detail-title {
+  font-family: base.$base-text;
+  font-size: base.$size-m;
+  font-weight: bold;
+  margin: base.$space-nano-5 base.$space-zero;
+}
+
+.item-detail-value {
+  font-family: base.$base-text;
+  font-size: base.$size-xxl;
+  margin: base.$space-nano-5 base.$space-zero;
+}
+
+.item-detail-value-dec {
+  font-size: base.$size-m;
+}
+
+.item-detail-buy-button {
+  margin-top: base.$space-l;
+  border: none;
+  cursor: pointer;
+  background-color: base.$color-primary-blue;
+  color: base.$color-white;
+  font-size: base.$size-xs;
+  padding: base.$space-xs-10 base.$space-zero;
+  border-radius: base.$space-nano;
+
+  &:hover {
+    background-color: base.$color-secondary-blue;
+  }
+}
+
+.item-detail-description-section {
+  width: 680px;
+  padding: base.$space-m-30;
+}
+
+.item-detail-decription-title {
+  font-family: base.$base-text;
+  font-size: base.$size-l;
+  margin: base.$space-m-20 base.$space-zero base.$space-m-30 base.$space-zero;
+}
+
+.item-detail-decription-text {
+  font-family: base.$base-text;
+  font-size: base.$size-xxs;
+  color: base.$color-light-gray;
+}

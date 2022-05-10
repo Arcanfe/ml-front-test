@@ -1,0 +1,9 @@
+@use '../../base';
+
+.search-result-content {
+  background-color: base.$color-primary-background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: base.$space-xl-50;
+}

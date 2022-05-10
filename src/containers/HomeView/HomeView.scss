@@ -1,0 +1,7 @@
+@use '../../base';
+
+.home-content {
+    background-color: base.$color-primary-background;
+    width: 100vw;
+    height: 100vh;
+}

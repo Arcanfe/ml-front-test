@@ -1,0 +1,9 @@
+@use '../../base';
+
+.breadcrumb {
+  width: 1030px;
+  color: base.$color-light-gray;
+  margin: base.$space-s base.$space-zero;
+  font-family: base.$base-text;
+  font-size: base.$size-xs;
+}

@@ -1,0 +1,13 @@
+@use '../../base';
+
+.divider {
+  background-color: base.$color-white;
+  width: 1025px;
+  display: flex;
+  justify-content: center;
+}
+
+.divider-line {
+  border-top: base.$space-micro solid base.$color-primary-background;
+  width: 970px;
+}

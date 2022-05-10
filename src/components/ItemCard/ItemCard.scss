@@ -1,0 +1,51 @@
+@use '../../base';
+
+.item-card-container {
+  display: flex;
+  flex-direction: row;
+  background-color: base.$color-white;
+  width: 1025px;
+  height: 230px;
+  cursor: pointer;
+}
+
+.item-card-image {
+  margin: base.$space-xs;
+  width: 200px;
+}
+
+.item-card-desc {
+  width: 435px;
+  margin-top: base.$space-m-20;
+  margin-right: 170px;
+}
+
+.item-card-price {
+  display: flex;
+  align-items: center;
+}
+
+.item-card-value {
+  font-size: base.$size-xl;
+  font-family: base.$base-text;
+}
+
+.item-card-shipping-icon {
+  margin-left: base.$space-xs-10;
+  width: base.$space-m-20;
+  height: base.$space-m-20;
+}
+
+.item-card-name {
+  margin-top: base.$space-m-20;
+  font-size: base.$size-m;
+  font-family: base.$base-text;
+}
+
+.item-card-location {
+  padding-top: base.$space-xxl-60;
+  color: base.$color-dark-gray;
+  width: 210px;
+  font-family: base.$base-text;
+  font-size: base.$size-s;
+}

@@ -1,0 +1,30 @@
+@use '../../base';
+
+.header-ml {
+    background-color: base.$color-ml-yellow;
+    display: flex;
+    justify-content: center;
+    padding-top: base.$space-nano-5;
+    padding-bottom: base.$space-nano-5;
+  }
+  
+  .header-ml-icon {
+    margin-right: base.$space-m;
+  }
+  
+  .header-ml-button {
+    border: none;
+    padding-left: base.$space-xs-10;
+    padding-right: base.$space-xs-10;
+
+    &:hover {
+      background-color: base.$color-light-gray;
+      cursor: pointer;
+    }
+  }
+  
+  .header-ml-input {
+    border: none;
+    min-width: 900px;
+    padding-left: base.$space-xxs;
+  }
